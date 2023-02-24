@@ -1,27 +1,30 @@
-/* Set the font for the entire page */
 body {
   font-family: "khalid bold", sans-serif;
   text-align: center;
 }
 
-/* Style the header */
-header {
-  background-image: url("IMG_1576.jpeg");
-  background-size: cover;
-  height: 150px;
-  width: 100vw;
+header img {
+  display: block;
+  max-width: 100%;
 }
 
-/* Style the title */
-h1 {
-  font-size: 48px;
-  margin-top: 40px;
+.image-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-/* Style the content */
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
+.image-text img {
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.image-text object {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
 }
